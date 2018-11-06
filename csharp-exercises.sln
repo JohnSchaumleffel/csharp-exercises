@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\Hell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPGCalculator", "MPGCalculator\MPGCalculator.csproj", "{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "StringSearch\StringSearch.csproj", "{A7124686-506C-46DD-B34E-CE0EF80D7A7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
