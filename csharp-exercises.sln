@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPGCalculator", "MPGCalcula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "StringSearch\StringSearch.csproj", "{A7124686-506C-46DD-B34E-CE0EF80D7A7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7124686-506C-46DD-B34E-CE0EF80D7A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
