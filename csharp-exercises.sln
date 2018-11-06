@@ -18,6 +18,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "Gradebook
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfCircle", "AreaOfCircle\AreaOfCircle.csproj", "{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfRectangle", "AreaOfRectangle\AreaOfRectangle.csproj", "{5F0EA6CA-8903-409B-926B-293A361B75A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0EA6CA-8903-409B-926B-293A361B75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0EA6CA-8903-409B-926B-293A361B75A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0EA6CA-8903-409B-926B-293A361B75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0EA6CA-8903-409B-926B-293A361B75A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
