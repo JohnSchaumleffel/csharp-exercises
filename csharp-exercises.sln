@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "Count
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\HelloName.csproj", "{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPGCalculator", "MPGCalculator\MPGCalculator.csproj", "{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
