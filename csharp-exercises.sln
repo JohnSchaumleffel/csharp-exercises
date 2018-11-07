@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithStrings", "Worki
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodPractice", "MethodPractice\MethodPractice.csproj", "{2671C780-536C-4766-B136-17C265A5322B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2PracticeProblems", "AddingNumbers\Class2PracticeProblems.csproj", "{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,10 @@ Global
 		{2671C780-536C-4766-B136-17C265A5322B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2671C780-536C-4766-B136-17C265A5322B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2671C780-536C-4766-B136-17C265A5322B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
