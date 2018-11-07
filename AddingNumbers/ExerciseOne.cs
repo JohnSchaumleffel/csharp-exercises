@@ -12,6 +12,7 @@ namespace Class2PracticeProblems
             List<int> integers = SetupIntegerList();
             int sum = GetSumOfEvenIntegers(integers);
             Console.WriteLine(sum);
+            Console.ReadLine();
         }
 
         private static int GetSumOfEvenIntegers(List<int> integers)
