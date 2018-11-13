@@ -32,7 +32,8 @@ namespace Class2PracticeProblems
 
         private static List<string> GetList()
         {
-            List<string> words = new List<string> { "some word",
+            List<string> words = new List<string>
+            { "some word",
                 "another",
                 "FiveL",
                 "three",

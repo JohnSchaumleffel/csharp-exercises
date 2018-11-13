@@ -7,16 +7,20 @@ namespace Class2PracticeProblems
         public static void Run()
         {
             //allow for certain number
-            int maxNumbers = 6;
+            //int maxNumbers = 6;
 
-            int[] nums = new int[maxNumbers];
+            int[] numbers = new int[] { 1, 1, 2, 3, 5, 8 };
 
-            nums = [1, 1, 2, 3, 5, 8];
 
-            foreach (int i in nums)
+
+            //numbers = [1, 1, 2, 3, 5, 8];
+
+            foreach (int i in numbers)
             {
                 Console.WriteLine(i);
             }
+
+            //Console.ReadLine();
         }
     }
 }
