@@ -16,23 +16,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfCircle", "AreaOfCircle\AreaOfCircle.csproj", "{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaOfCircle", "AreaOfCircle\AreaOfCircle.csproj", "{4D9A829F-6F3A-4D2A-9DC3-BB8149D3D727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaOfRectangle", "AreaOfRectangle\AreaOfRectangle.csproj", "{5F0EA6CA-8903-409B-926B-293A361B75A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaOfRectangle", "AreaOfRectangle\AreaOfRectangle.csproj", "{5F0EA6CA-8903-409B-926B-293A361B75A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{DE143609-AB1B-4D4A-9BC1-D0DA99E90A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountingCharacters", "CountingCharacters\CountingCharacters.csproj", "{DE143609-AB1B-4D4A-9BC1-D0DA99E90A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\HelloName.csproj", "{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloName", "HelloName\HelloName.csproj", "{96EFAAF8-7063-4ACD-A27D-98F69E7A651B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPGCalculator", "MPGCalculator\MPGCalculator.csproj", "{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPGCalculator", "MPGCalculator\MPGCalculator.csproj", "{D2A0A4B7-AE3E-4CAD-A759-5DFC89BF3E82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringSearch", "StringSearch\StringSearch.csproj", "{A7124686-506C-46DD-B34E-CE0EF80D7A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringSearch", "StringSearch\StringSearch.csproj", "{A7124686-506C-46DD-B34E-CE0EF80D7A7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithStrings", "WorkingWithStrings\WorkingWithStrings.csproj", "{D2F379DC-0FC8-4657-B5BC-5227A7A361F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodPractice", "MethodPractice\MethodPractice.csproj", "{2671C780-536C-4766-B136-17C265A5322B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodPractice", "MethodPractice\MethodPractice.csproj", "{2671C780-536C-4766-B136-17C265A5322B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class2PracticeProblems", "AddingNumbers\Class2PracticeProblems.csproj", "{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class2PracticeProblems", "AddingNumbers\Class2PracticeProblems.csproj", "{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClasses", "SimpleClasses\SimpleClasses.csproj", "{1814398C-0BA7-4F51-9C8F-42112711E87C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -104,6 +106,10 @@ Global
 		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9ADC7BFE-517D-44F1-9F00-CE6B32B0AC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1814398C-0BA7-4F51-9C8F-42112711E87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1814398C-0BA7-4F51-9C8F-42112711E87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1814398C-0BA7-4F51-9C8F-42112711E87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1814398C-0BA7-4F51-9C8F-42112711E87C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
