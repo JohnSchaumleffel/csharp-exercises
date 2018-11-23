@@ -4,6 +4,14 @@
 <h1>Delete Cheese</h1>
 
 <form method="post">
-    <input type="text" value="test" />
-    <input type="submit" value="Delete Cheese" />
+    <select name="removedCheese">
+        <option value="">**select one**</option>
+        @foreach (var cheese in ViewBag.cheeses)
+        {
+            <option value="@cheese.Key">@cheese.Key</option>
+        }
+    </select>
+    <button>Delete Cheese</button>
+
 </form>
+<a asp-controller="Cheese" asp-action="Add">Add Cheese</a><br/>

@@ -47,11 +47,16 @@ namespace CheeseMVC.Controllers
 
         [HttpPost]
         [Route("/Cheese/Delete")]
-        public IActionResult DeleteCheese()
+        public IActionResult DeleteCheese(string removedCheese)
         {
-            //remove cheese
-            //return Redirect("/Cheese");
-            return View();
+            if (String.IsNullOrEmpty(removedCheese))
+            {
+                ViewBag.error = "Please select a cheese.";
+                ViewBag.cheeses = Cheeses;
+                return View("Delete");
+            }
+            Cheeses.Remove(removedCheese);
+            return Redirect("/Cheese");
         }
     }
 }
