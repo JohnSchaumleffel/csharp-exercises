@@ -8,6 +8,11 @@ namespace CountingCharacters
     {
         static void Main(string[] args)
         {
+            CountingCharacters tabulate = new CountingCharacters();
+            tabulate.TabulateCharacters();
+        }
+            public class CountingCharacters
+        {
             //create variables
             string textBlock = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
                 "Nunc accumsan sem ut ligula scelerisque sollicitudin. " +
@@ -20,25 +25,29 @@ namespace CountingCharacters
 
             Dictionary<char, int> LetterCount = new Dictionary<char, int>();
 
-            foreach (char c in textBlock)
+            public void TabulateCharacters()
             {
-                if (alphabet.Contains(c))
+                foreach (char c in textBlock)
                 {
-                    if (LetterCount.ContainsKey(c))
+                    if (alphabet.Contains(c))
                     {
-                        LetterCount[c] += 1;
+                        if (LetterCount.ContainsKey(c))
+                        {
+                            LetterCount[c] += 1;
+                        }
+                        else
+                        {
+                            LetterCount.Add(c, 1);
+                        }
                     }
-                    else
-                    {
-                        LetterCount.Add(c, 1);
-                    }
-                }                                       
+                }
+                foreach (KeyValuePair<char, int> c in LetterCount)
+                {
+                    Console.WriteLine(String.Format("{0}: {1}", c.Key, c.Value));
+                }
+                Console.ReadKey();
             }
-            foreach (KeyValuePair<char, int> c in LetterCount)
-            {
-                Console.WriteLine(String.Format("{0}: {1}", c.Key, c.Value));
-            }
-            Console.ReadKey();
+        }
+
         }
     }
-}
