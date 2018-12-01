@@ -42,6 +42,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyHelloWorld", "UdemyHelloWorld\UdemyHelloWorld.csproj", "{6E610B2C-04BC-4DE0-963C-05C336000313}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingEvenNumbers", "AddingEvenNumbers\AddingEvenNumbers.csproj", "{3E503E98-EAF5-4D91-AA0A-1C792C390BC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{6E610B2C-04BC-4DE0-963C-05C336000313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E610B2C-04BC-4DE0-963C-05C336000313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E610B2C-04BC-4DE0-963C-05C336000313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E503E98-EAF5-4D91-AA0A-1C792C390BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E503E98-EAF5-4D91-AA0A-1C792C390BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E503E98-EAF5-4D91-AA0A-1C792C390BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E503E98-EAF5-4D91-AA0A-1C792C390BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
